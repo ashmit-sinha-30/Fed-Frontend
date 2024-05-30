@@ -1,6 +1,8 @@
+@import "/src/assets/styles/Global.scss";
+
 .f1 {
     padding: 40px;
-    background-color: rgba(30, 30, 30, 1);
+    background-color: $Footer-bg;
     color: white;
     overflow-x: hidden;
   }
