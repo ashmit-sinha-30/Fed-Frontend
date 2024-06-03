@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.scss'
+import {Parallax} from 'rc-scroll-anim';
 
 export default function About() {
   return (
