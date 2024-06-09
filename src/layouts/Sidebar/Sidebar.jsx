@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import styles from "./Styles/Sidebar.module.scss";
 import { MdLogout } from "react-icons/md";
 import { TbUserEdit } from "react-icons/tb";

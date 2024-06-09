@@ -1,15 +1,42 @@
+
+
+.headerMain {
+  background: transparent;
+  // transition: top 0.3s;
+  // add any other default styles
+  // transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.sticky {
+    position: relative;
+    top: 0;
+    width: 100%;
+    // opacity: 1;
+    background-color: transparent;
+}
+
 .nav {
   justify-content: space-between;
-  backdrop-filter: blur(10px);
+  // backdrop-filter: blur(90px);
+  color: white;
   display: flex;
   width: 100vw;
-  background-color: $page-color;
-  color: #fff;
+  // margin-left: 1rem;
+  background: rgba(41, 41, 41, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   text-align: center;
-  padding: 1.25rem 2.25rem;
-  position: relative;
+  padding: 1.5rem 2rem;
+  
+  // position: relative;
+  // position: -webkit-sticky; /* Safari */
+  // position: fixed;
   align-items: center;
+  z-index: 10;
 }
+
 a{
   color: #fff;
   text-decoration: none;
@@ -20,6 +47,7 @@ a{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding-left: 1rem;
 }
 
 .logo {
@@ -49,22 +77,28 @@ a{
   gap: 20px;
   font-weight: 500;
   white-space: nowrap;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0.8125rem 2.875rem;
+  // padding-left: 3.5rem;
   height: 3.5rem;
   list-style: none;
-  margin: 0;
+  margin: 0; 
+  &:hover{
+    color: var(--Tab-Color, #ff8a00);
+  }
+}
+
+.navItems:hover{
+  color: var(--Tab-Color, #ff8a00);
 }
 
 .navLink {
   font-family: Poppins, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
   justify-content: center;
   padding: 8px 0;
   cursor: pointer;
-}
-
-.navLink:hover {
-  color: var(--Tab-Color, #ff8a00);
 }
 
 .authButton {
@@ -79,9 +113,10 @@ a{
     rgba(244, 43, 3, 0.84) 128.34%
   );
   font-weight: 600;
-  padding: 13px 46px;
+  padding: 13px 15px;
   border: none;
   color: #fff;
+  margin-right: 2.4rem;
 }
 
 @media screen and (max-width: 825px) {
@@ -138,7 +173,7 @@ a{
 
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .navItems {
     display: none;
   }

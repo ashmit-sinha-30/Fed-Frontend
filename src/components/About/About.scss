@@ -1,4 +1,4 @@
-@import "../../../assets/styles/Global.scss";
+@import "/src/assets/styles/Global.scss";
 
 * {
     margin: 0px;
@@ -9,29 +9,21 @@
 
 
 span{
-    color: $orange-color;
-}
-
-.container{
-    margin-top: -11rem;
+    color: $About-orange;
 }
 
 .head{
     font-weight: 800;
-    font-size: 3.8rem;
+    font-size: 45px;
     position: relative;
     text-align: center;
-    margin-top: 11rem;
-    margin-right: 25px;
 }
-
-
 
 .head ::before{
     content:'';
     height:5px;
     width:6.5rem;
-    background: $orange-color;
+    background: $About-orange;
     border-radius: 5px;
     position:absolute;
     margin:auto;
@@ -42,17 +34,17 @@ span{
 
 
 .box{
-    height: 14rem;
-    width: 65%;
+    height: 10rem;
+    width: 60%;
     padding: 2rem;
     background: transparent;
-    font-size: 1.85rem;
+    font-size: 1.25rem;
     border: 2px solid white;
     border-radius: 20px;
 }
 
 .whatfed{    
-    height: 15rem;
+    height: 11rem;
     padding: 1.5rem 2rem 1.5rem 2rem;
 }
 
@@ -73,23 +65,13 @@ span{
 
 .box1{
     align-items: center;
-    padding-top: 1rem;
-}
-
-.box2{
-    padding-top: 1rem;
-}
-
-.box3{
-    padding-top: 1rem;
-    // padding-bottom: -9rem;
 }
 
 .whyfed{
     order: 1;
     margin-top: 80px;
     position: relative;
-    left: 100px;
+    left: 50px;
     z-index: 0;
 }
 
@@ -97,8 +79,8 @@ span{
     order: 2;
     background: none;
     position: relative;
-    right: 80px;
-    z-index: 0;
+    right: 50px;
+    z-index: 1;
 }
 
 .howfed{
@@ -110,15 +92,15 @@ span{
 .howfedimg{
     background: none;
     position: relative;
-    left: 70px;
-    z-index:1;
+    left: 50px;
+    z-index: 1;
     height: 350px;
 }
 
 .whatfed{
     order: 1;
     position: relative;
-    left: 100px;
+    left: 60px;
     z-index: 0;
 }
 
@@ -126,8 +108,8 @@ span{
     order: 2;
     background: none;
     position: relative;
-    right: 90px;
-    z-index: 0;
+    right: 60px;
+    z-index: 1;
     height: 353px;
 }
 
@@ -136,21 +118,6 @@ span{
     .head{
         font-size: 42px;
     }
-
-    .box1{
-        align-items: center;
-        padding-top: 3rem;
-    }
-    
-    .box2{
-        padding-top: 3rem;
-    }
-    
-    .box3{
-        padding-top: 3rem;
-        // padding-bottom: -9rem;
-    }
-
     .box{
         font-size: 1.15rem;
     }
@@ -329,8 +296,7 @@ span{
         position: relative;
         right: 0px;
         bottom: 250px;
-        height: 150px;
-        padding-top: -3rem;
+        height: 303px;
     }
 }
 
@@ -501,4 +467,3 @@ span{
         height: 253px;
     }
 }
-

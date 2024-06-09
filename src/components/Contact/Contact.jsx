@@ -1,6 +1,42 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './Styles/Contact.module.scss';
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 import contactImg from "../../assets/images/contact.png";
+
+const getBoxVariant = (direction) => {
+  return {
+    visible: { opacity: 1, x: 0, transition: { duration: 1.2 } },
+    hidden: { opacity: 0, x: direction === 'left' ? -100 : 100 }
+  };
+};
+
+const AnimatedBox = ({ children, direction }) => {
+  const control = useAnimation();
+  const [ref, inView] = useInView({
+    triggerOnce: false,
+    threshold: 0.3,
+   });
+
+  useEffect(() => {
+    if (inView) {
+      control.start('visible');
+    } else {
+      control.start('hidden');
+    }
+  }, [control, inView]);
+
+  return (
+    <motion.div
+      ref={ref}
+      variants={getBoxVariant(direction)}
+      initial="hidden"
+      animate={control}
+    >
+      {children}
+    </motion.div>
+  );
+};
 
 const ContactForm = () => {
   return (
@@ -22,14 +58,14 @@ const ContactForm = () => {
         </form>
          <div className={styles['image-section']}>
             <div className={styles['backCircle']}></div>
-            
+            <AnimatedBox direction="right">
           <img src={contactImg} alt="To Fed" />
-          <div className={styles['gola']}></div>
+          </AnimatedBox>
+          <div className={styles['circle']}></div>
        </div> 
       </div>
       
     </div>
-    
   );
 };
 

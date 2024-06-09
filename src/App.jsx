@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // layouts
 import Nav from "./layouts/Navbar/Navbar";
 import Footer from "./layouts/Footer/Footer";
+import MobNav from "./layouts/MobileViewNavbar/MobileViewNavbar";
 // import MobileNav from "./components/header/MobileHeader";
 
 // // pages
@@ -13,7 +14,9 @@ const Contact = React.lazy(() => import("./pages/Contact/Contact"));
 const EventCards = React.lazy(() =>
   import("./components/EventCards/EventCards")
 );
+const Social = React.lazy(() => import("./pages/SocialMedia/SocialMedia")); 
 const Login = React.lazy(() => import("./pages/Login/Login"));
+const Teams = React.lazy(() => import("./components/TeamPage/TeamPage"));
 
 const EventCards1 = React.lazy(() => import("./components/EventCards/EventCards1/EventCards-1"));
 
@@ -23,6 +26,9 @@ const EventCardsModal = React.lazy(() => import("./components/EventCards/EventCa
 import Loading from "./microInteraction/Load/Load";
 
 // import { Alert } from "./MicroInteraction/Alert";
+
+//Social Media Page
+
 
 // // state
 // import AuthContext from "./context/auth-context";
@@ -62,6 +68,23 @@ function App() {
               element={
                 <Suspense fallback={<Loading />}>
                   <Contact />
+                </Suspense>
+              }
+            />
+
+<Route
+              path="/Social"
+              element={
+                <Suspense fallback={<Loading />}>
+                  <Social />
+                </Suspense>
+              }
+            />
+            <Route
+              path="/Team"
+              element={
+                <Suspense fallback={<Loading />}>
+                  <Teams />
                 </Suspense>
               }
             />

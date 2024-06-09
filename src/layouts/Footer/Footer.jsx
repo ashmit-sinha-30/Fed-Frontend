@@ -254,7 +254,7 @@ export default function Footer() {
               </Link>
             </div>
           </div>
-          <p className={style.copyrightPTag}>© 2019-2023, fedkiit.com</p>
+          <p className={style.copyrightPTag}>© 2024-2028, fedkiit.com</p>
         </div>
       </footer>
     </section>

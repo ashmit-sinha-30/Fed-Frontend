@@ -1,0 +1,195 @@
+[
+    {
+        "name": "Krishanu Roy",
+        "title": "Technical Lead",
+        "role": "Technical",
+        "image": "https://uploads-ssl.webflow.com/663d1907e337de23e83c30b2/6662bf1f6f96f93b4fbd6023_71589d97-4c1b-4b88-b56e-559b7d3549d2.jpg",
+        "social": {
+      "linkedin": "https://linkedin.com/in/krishanu",
+      "twitter": "https://twitter.com/krishanu",
+      "github": "https://github.com/krishanu"
+    }
+    },
+
+    {
+        "name": "Krishanu Roy",
+        "title": "Technical Lead",
+        "role": "Technical",
+        "image": "https://uploads-ssl.webflow.com/663d1907e337de23e83c30b2/6662bf1f6f96f93b4fbd6023_71589d97-4c1b-4b88-b56e-559b7d3549d2.jpg",
+        "social": {
+      "linkedin": "https://linkedin.com/in/krishanu",
+      "twitter": "https://twitter.com/krishanu",
+      "github": "https://github.com/krishanu"
+    }
+    },
+    {
+        "name": "Krishanu Roy",
+        "title": "Technical Lead",
+        "role": "Technical",
+        "image": "https://uploads-ssl.webflow.com/663d1907e337de23e83c30b2/6662bf1f6f96f93b4fbd6023_71589d97-4c1b-4b88-b56e-559b7d3549d2.jpg",
+        "social": {
+      "linkedin": "https://linkedin.com/in/krishanu",
+      "twitter": "https://twitter.com/krishanu",
+      "github": "https://github.com/krishanu"
+    }
+    },
+    
+    {
+        "name": "John Doe",
+        "title": "Creative Director",
+        "role": "Director",
+        "image": "https://uploads-ssl.webflow.com/663d1907e337de23e83c30b2/6662bf1f6f96f93b4fbd6023_71589d97-4c1b-4b88-b56e-559b7d3549d2.jpg",
+        "social": {
+      "linkedin": "https://linkedin.com/in/krishanu",
+      "twitter": "https://twitter.com/krishanu",
+      "github": "https://github.com/krishanu"
+    }
+    },
+
+    {
+        "name": "John Doe",
+        "title": "Creative Director",
+        "role": "Director",
+        "image": "https://uploads-ssl.webflow.com/663d1907e337de23e83c30b2/6662bf1f6f96f93b4fbd6023_71589d97-4c1b-4b88-b56e-559b7d3549d2.jpg",
+        "social": {
+      "linkedin": "https://linkedin.com/in/krishanu",
+      "twitter": "https://twitter.com/krishanu",
+      "github": "https://github.com/krishanu"
+    }
+    },
+
+    {
+        "name": "John Doe",
+        "title": "Creative Director",
+        "role": "Director",
+        "image": "https://uploads-ssl.webflow.com/663d1907e337de23e83c30b2/6662bf1f6f96f93b4fbd6023_71589d97-4c1b-4b88-b56e-559b7d3549d2.jpg",
+        "social": {
+      "linkedin": "https://linkedin.com/in/krishanu",
+      "twitter": "https://twitter.com/krishanu",
+      "github": "https://github.com/krishanu"
+    }
+    },
+    
+        {
+            "name": "John Doe",
+            "title": "Creative Director",
+            "role": "Director",
+            "image": "https://uploads-ssl.webflow.com/663d1907e337de23e83c30b2/6662bf1f6f96f93b4fbd6023_71589d97-4c1b-4b88-b56e-559b7d3549d2.jpg",
+            "social": {
+                "linkedin": "https://linkedin.com/in/johndoe",
+                "twitter": "https://twitter.com/johndoe",
+                "github": "https://github.com/johndoe"
+            }
+        },
+        {
+            "name": "Jane Smith",
+            "title": "Marketing Manager",
+            "role": "Marketing",
+            "image": "https://uploads-ssl.webflow.com/663d1907e337de23e83c30b2/6662bf1f6f96f93b4fbd6023_71589d97-4c1b-4b88-b56e-559b7d3549d2.jpg",
+            "social": {
+                "linkedin": "https://linkedin.com/in/janesmith",
+                "twitter": "https://twitter.com/janesmith",
+                "github": "https://github.com/janesmith"
+            }
+        },
+        {
+            "name": "Alice Johnson",
+            "title": "Operations Manager",
+            "role": "Operations",
+            "image": "https://uploads-ssl.webflow.com/663d1907e337de23e83c30b2/6662bf1f6f96f93b4fbd6023_71589d97-4c1b-4b88-b56e-559b7d3549d2.jpg",
+            "social": {
+                "linkedin": "https://linkedin.com/in/alicejohnson",
+                "twitter": "https://twitter.com/alicejohnson",
+                "github": "https://github.com/alicejohnson"
+            }
+        },
+        {
+            "name": "Alice Johnson",
+            "title": "Operations Manager",
+            "role": "Operations",
+            "image": "https://uploads-ssl.webflow.com/663d1907e337de23e83c30b2/6662bf1f6f96f93b4fbd6023_71589d97-4c1b-4b88-b56e-559b7d3549d2.jpg",
+            "social": {
+                "linkedin": "https://linkedin.com/in/alicejohnson",
+                "twitter": "https://twitter.com/alicejohnson",
+                "github": "https://github.com/alicejohnson"
+            }
+        },
+        {
+            "name": "Alice Johnson",
+            "title": "Operations Manager",
+            "role": "Operations",
+            "image": "https://uploads-ssl.webflow.com/663d1907e337de23e83c30b2/6662bf1f6f96f93b4fbd6023_71589d97-4c1b-4b88-b56e-559b7d3549d2.jpg",
+            "social": {
+                "linkedin": "https://linkedin.com/in/alicejohnson",
+                "twitter": "https://twitter.com/alicejohnson",
+                "github": "https://github.com/alicejohnson"
+            }
+        },
+        {
+            "name": "Bob Brown",
+            "title": "Senior Developer",
+            "role": "Technical",
+            "image": "https://uploads-ssl.webflow.com/663d1907e337de23e83c30b2/6662bf1f6f96f93b4fbd6023_71589d97-4c1b-4b88-b56e-559b7d3549d2.jpg",
+            "social": {
+                "linkedin": "https://linkedin.com/in/bobbrown",
+                "twitter": "https://twitter.com/bobbrown",
+                "github": "https://github.com/bobbrown"
+            }
+        },
+        {
+            "name": "Charlie Black",
+            "title": "Creative Designer",
+            "role": "Creative",
+            "image": "https://uploads-ssl.webflow.com/663d1907e337de23e83c30b2/6662bf1f6f96f93b4fbd6023_71589d97-4c1b-4b88-b56e-559b7d3549d2.jpg",
+            "social": {
+                "linkedin": "https://linkedin.com/in/charlieblack",
+                "twitter": "https://twitter.com/charlieblack",
+                "github": "https://github.com/charlieblack"
+            }
+        },
+        {
+            "name": "David Green",
+            "title": "Marketing Specialist",
+            "role": "Marketing",
+            "image": "https://uploads-ssl.webflow.com/663d1907e337de23e83c30b2/6662bf1f6f96f93b4fbd6023_71589d97-4c1b-4b88-b56e-559b7d3549d2.jpg",
+            "social": {
+                "linkedin": "https://linkedin.com/in/davidgreen",
+                "twitter": "https://twitter.com/davidgreen",
+                "github": "https://github.com/davidgreen"
+            }
+        },
+        {
+            "name": "Eva White",
+            "title": "Operations Coordinator",
+            "role": "Operations",
+            "image": "https://uploads-ssl.webflow.com/663d1907e337de23e83c30b2/6662bf1f6f96f93b4fbd6023_71589d97-4c1b-4b88-b56e-559b7d3549d2.jpg",
+            "social": {
+                "linkedin": "https://linkedin.com/in/evawhite",
+                "twitter": "https://twitter.com/evawhite",
+                "github": "https://github.com/evawhite"
+            }
+        },
+        {
+            "name": "Frank Blue",
+            "title": "Technical Architect",
+            "role": "Technical",
+            "image": "https://uploads-ssl.webflow.com/663d1907e337de23e83c30b2/6662bf1f6f96f93b4fbd6023_71589d97-4c1b-4b88-b56e-559b7d3549d2.jpg",
+            "social": {
+                "linkedin": "https://linkedin.com/in/frankblue",
+                "twitter": "https://twitter.com/frankblue",
+                "github": "https://github.com/frankblue"
+            }
+        },
+        {
+            "name": "Grace Red",
+            "title": "Creative Artist",
+            "role": "Sponsorship & PR",
+            "image": "https://uploads-ssl.webflow.com/663d1907e337de23e83c30b2/6662bf1f6f96f93b4fbd6023_71589d97-4c1b-4b88-b56e-559b7d3549d2.jpg",
+            "social": {
+                "linkedin": "https://linkedin.com/in/gracered",
+                "twitter": "https://twitter.com/gracered",
+                "github": "https://github.com/gracered"
+            }
+        }
+    ]
+    

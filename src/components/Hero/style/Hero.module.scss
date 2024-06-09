@@ -1,9 +1,8 @@
-
 .main{
     height: auto;
     width: full;
     background-color: #1C1C1C;
-    
+    margin-top: 75px;
 }
 
 .hero{
@@ -12,20 +11,25 @@
     flex-direction: row;
     background-color: #1C1C1C;
     position: relative; 
+    padding-bottom: 4.5vw;
+    margin-top: 3rem;
+    z-index: 0;
 }
 
 .hero1{
    height:100%;
     width: 100%;    
     padding:3vw;
-    padding-top: 3vw;
+    padding-top: 4vw;
     z-index: 1; //change- gola k upar text leya-Ritam
     // display: none;
 }
 
-.hero1one{
-    padding-top: 10vw;
-    padding-left: 3vw;
+.heroone{
+    padding-top: 5vw;
+    padding-bottom: 1vw;
+    margin-top: -7rem;
+    // padding-left: 3vw;
 }
 .hero2{
     // min-height: 100vh;
@@ -34,11 +38,11 @@
     justify-content: center;
     align-items: center;
     position: relative;
-   
+    
    
 }
 
-.gola{
+.circle{
     height: 52rem;
     width: 50rem;
     background-color:  rgba(255, 92, 0, 0.19);
@@ -53,18 +57,20 @@
 
 .hero1 h2{
     color: #FFFFFF;
-    font-size: 3vw;
+    font-size: 3.1vw;
+    letter-spacing: 0.1vh;
 }
 .hero1 p{
     color: #FF5C00;
     margin-left: 0.5vw;
     
 }
-.e{
+.maincontent{
+    padding-top: 50px;
     display: flex;
     align-items: center;
 }
-.f{
+.smallcontent{
     display: flex;
     align-items: center;
 }
@@ -74,27 +80,31 @@
     font-size: 3vw;
 }
 
-.hero1two{
-    padding-top: 4vw;
-    padding-left: 3vw;
+.herotwo{
+    padding-top: 2vw;
+    padding-bottom: 3vw;
+    // padding-left: 3vw;
 }
 
 h4{
-    font-size: 1vw;
+    font-size: 1.7vw;
    color: #FFFFFF;
     margin-left: 0.3vw;
+    letter-spacing: 0.1vw;
 }
 h5{
-    font-size: 1vw;
+    font-size: 1.7vw;
     color: #FF5C00;
     margin-left: 0.5vw;
 }
 
+@media (min-width: 2400px){
+    .main{
+        margin-right: 45rem;
+    }
+}
 
-
-
-@media screen and (max-width: 600px){
-
+@media screen and (max-width: 400px) {
     .hero{
         // min-height: 100vh;
         width: 100%;
@@ -102,6 +112,7 @@ h5{
         flex-direction: column-reverse;
         background-color: #1C1C1C;
         position: relative; 
+        margin-top: -3rem;
     }
 
     .hero1 h2{
@@ -128,18 +139,78 @@ h5{
         margin-right: 1vw;
     }
     
+    .smallcontent{
+        padding-top: 3rem;
+    }
 
     .hero1{
         margin-left:7%;
-        margin-top: -5%;
+        margin-top: 21%;
     }
 
   
     .hero1{
         height:100%;
          width: 100%;    
-         padding:3vw;
-         padding-top: 3vw;
+         padding:2vw;
+         padding-top: 2vw;
+         z-index: 1; //change- gola k upar text leya-Ritam
+         // display: none;
+     }
+}
+
+
+@media screen and (max-width: 600px){
+
+    .hero{
+        // min-height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #1C1C1C;
+        position: relative; 
+        margin-top: -3rem;
+    }
+
+    .hero1 h2{
+        color: #FFFFFF;
+        font-size: 5vw;
+    }
+
+    .hero1 h3{
+        margin-left: 1.5vw;
+        color: #FF5C00;
+        font-size: 5vw;
+    }
+    
+    h4{
+        font-size: 3vw;
+       color: #FFFFFF;
+        margin-left: 0.3vw;
+    }
+
+    h5{
+        font-size: 3vw;
+        color: #FF5C00;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    
+    .smallcontent{
+        padding-top: 1rem;
+    }
+
+    .hero1{
+        margin-left:7%;
+        margin-top: 21%;
+    }
+
+  
+    .hero1{
+        height:100%;
+         width: 100%;    
+         padding:2vw;
+         padding-top: 2vw;
          z-index: 1; //change- gola k upar text leya-Ritam
          // display: none;
      }
