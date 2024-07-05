@@ -4,24 +4,25 @@
     font-weight: 300;
     display: flex;
     flex-direction: column;
-    padding-left: 33px;
-    padding-top: 81px;
+    padding-left: 0px;
+    padding-top: 30px;
     padding-bottom: 27px;
   }
   
   .proHeading {
-    font-size: 38px;
+    font-size: 30px;
     letter-spacing: 0.02em;
     line-height: 40px;
     padding-bottom: 50px;
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
   }
 
   .headInnerText{
-    margin-inline: auto;
+    margin-left: 10rem;
+    // margin-right: 10rem;
   }
   
   .headInnerText span{
@@ -34,9 +35,9 @@
   
   .details{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    width: 70%;
+    width: 100%;
     // background-color: red;
     margin-left: 10rem;
   
@@ -45,12 +46,17 @@
   .dets,
   .vals {
     font-family: "Rubik", sans-serif;
-    font-size: 25px;
-    padding-bottom: 30px;
+    font-size: 20px;
+    padding-bottom: 27px;
   }
   
   .dets {
     padding-right: 100px;
+  }
+
+  .editbtn{
+    font-size: 1.8rem;
+    margin-right: 10rem;
   }
   
   @media screen and (max-width:989px) {
@@ -58,12 +64,27 @@
       width: 90%;
       margin-left: 5rem;
     }
+
+    .headInnerText{
+      margin-left: 5rem;
+    }
+
+    .editbtn{
+      margin-right: 5rem;
+    }
   }
   
   @media screen and (max-width:867px) {
     .details{
       width: 90%;
       margin-left: 2rem;
+    }
+    .headInnerText{
+      margin-left: 2rem;
+    }
+
+    .editbtn{
+      margin-right: 2rem;
     }
   }
   
@@ -73,12 +94,18 @@
       margin-right: 1rem;
       margin-left: 1rem;
     }
+    .headInnerText{
+      margin-left: 1rem;
+    }
+    .editbtn{
+      margin-right: 1rem;
+    }
   }
   
   @media screen and (max-width:480px) {
     #profile {
-      padding-left: 15px;
-      padding-right: 15px;
+      margin-left: 15px;
+      margin-right: 15px;
     }
   
     .dets {
@@ -92,5 +119,13 @@
     font-size: 20px;
   }
   }
-  
+
+  @media screen and (max-width:380px) {
+    
+    .dets {
+      padding-right: 30px;
+    }
+    
+  }
+
   
